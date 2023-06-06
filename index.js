@@ -11,8 +11,8 @@ if(a==60)
 {
     let st=document.getElementById('st');
    x=setInterval(() => {
+        a--;
     st.innerHTML=a;
-    a--;
     if(a==0)
     {
         a=60;
@@ -21,19 +21,20 @@ if(a==60)
 
    let mt=document.getElementById('mt');
   y=setInterval(() => {
+      b--;
     mt.innerHTML=b;
-    b--;
-    if(b==0)
+    if(b==-1)
     {
         let ht=document.getElementById('ht');
-        ht.innerHTML=c;
         c--;
+        ht.innerHTML=c;
         if(c==-1)
         {
             c=2;
-            ht.innerHTML=0;
+            ht.innerHTML=2;
         }
      b=5;
+        mt.innerHTML=5;
     }
 },60000);
 
