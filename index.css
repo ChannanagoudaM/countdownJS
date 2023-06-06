@@ -1,0 +1,130 @@
+body
+{
+    padding: 0;
+    margin: 0;;
+}
+.a
+{
+    height: 100vh;
+    width: 100wh;
+    background-image: url(joker2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.b
+{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position:fixed;
+}
+.c
+{
+    position: fixed;
+}
+#ht,#mt,#st
+{
+    color: white;
+    display: inline;
+    margin: 20px;
+}
+#ht
+{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    font-size: 80px;
+    border: transparent;
+    font-weight: bolder;
+    font-family:red- serif;
+    color: red;
+}
+#mt
+{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    font-size: 80px;
+    border: transparent;
+    font-weight: bolder;
+    font-family:red- serif;
+    color: red;
+}
+#st
+{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    font-size: 80px;
+    font-weight: bolder;
+    border: transparent;
+    font-family:red- serif;
+    color: red;
+}
+.d
+{
+    position:relative;
+    top: 125px;
+    right: 2px;
+}
+#start
+{
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    font-size: 40px;
+    font-family:red- serif;
+    letter-spacing: 4px;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+}
+#stop
+{
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    font-size: 40px;
+    font-family:red- serif;
+    letter-spacing: 4px;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+}
+#reset
+{
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    font-size: 40px;
+    font-family:red- serif;
+    letter-spacing: 4px;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+}
+.heading
+{
+color: whitesmoke;
+position: relative;
+bottom: 200px;
+left: 400px;
+word-spacing: 10px;
+letter-spacing: 5px;
+font-size: 50px;
+color: grey;
+}
+#im
+{
+    position:relative;
+    top: -137px;
+    left: 370px;
+}
